@@ -1,2 +1,2 @@
-# cheffley6.github.io \n Personal website
+# cheffley6.github.io 
 Personal Website
