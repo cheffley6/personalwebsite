@@ -43,7 +43,13 @@
             <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#education">Research</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#education">Projects</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
@@ -64,10 +70,8 @@
           </h1>
           <div class="subheading mb-5">Atlanta, GA · cyheffley (at) gatech (dot) edu
           </div>
-          <p class="mb-5">I'm a second-year Computer Science undergrad at
-            Georgia Tech interested in embedded systems, interactive computing, and web development.<br />
-            <b>To check out my resume, click
-            <a href="https://drive.google.com/file/d/1d_aTQ9WbmzpDNk9IpP2oceDevWiBvQEb/view" target="_blank">here.</a></b></map></p>
+          <p class="mb-5">I'm a third-year Computer Science undergrad at Georgia Tech interested in artificial
+            intelligence, interactive computing, and web development.<br />
           <ul class="list-inline list-social-icons mb-0">
             <li class="list-inline-item">
               <a href="https://www.linkedin.com/in/cy-heffley/">
@@ -94,15 +98,51 @@
           <h2 class="mb-5">Experience</h2>
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Research Assistant</h3>
-              <div class="subheading mb-3">Expressive Machinery Lab, Georgia Tech</div>
-              <p><a href="https://adamlab.gatech.edu/" target="_blank">Website</a><br />
-              I'm currently working on creating a web port of Groove Machine, 
-              a multimedia project designed to teach coding concepts
+              <h3 class="mb-0">Software Engineering Inter</h3>
+              <div class="subheading mb-3">Ultimate Software</div>
+              I work in integrations and events at Ultimate, where our team primarily focuses on connecting third-party
+              platforms to applications built by other teams at Ultimate. At Ultimate, I debug and configure connections
+              with platforms such as Kafka, RabbitMQ, and MongoDB, revise software documentation for other teams of
+              developers, and configure monitoring tools such as Grafana for verifying the state of our applications.
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Summer 2019</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Software Intern</h3>
+              <div class="subheading mb-3">Clearion Software, LLC</div>
+              <p><a href="https://clearion.com/" target="_blank">Website</a><br />
+              Clearion is a leading team in geospatial work management software. At Clearion, I drafted software
+              documentation for nine separate electric utilities, vegetation management service providers, and telecom
+              groups. I also validated raster imagery data in a consulting project with AT&T, and gave vegetation
+              maintenance presentations to our sales team to improve their relationships with utility vegetation
+              management clients. 
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Summer 2017</span>
+            </div>
+          </div>
+
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+        <div class="my-auto">
+          <h2 class="mb-5">Research</h2>
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Expressive Machinery Lab</h3>
+              <div class="subheading mb-3">Georgia Tech</div>
+              <p><a href="https://expressivemachinery.gatech.edu/" target="_blank">Website</a><br />
+              I'm currently helping build a web port of Groove Machine, 
+              a tabletop interface designed to teach coding concepts
               and musical composition to children ages 10-14.<br />
-              This summer I learned how to use the tools that build Groove Machine,
-              particularly Arduino microcontrollers. This was my first experience
-              programming with embedded systems as well as working with digital circuits.
+              I'm also involved in debugging, testing, and maintaining new features on Groove Machine
+              such as sound samples.
               </p>
             </div>
             <div class="resume-date text-md-right">
@@ -113,16 +153,17 @@
 
         <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Technical Documentation Intern</h3>
-              <div class="subheading mb-3">Clearion Software, LLC</div>
-              <p><a href="https://clearion.com/" target="_blank">Website</a><br />
-              Clearion is a leading team in geospatial work management
-              software. At Clearion, I was responsible for updating software 
-              documentation and testing new features and product builds for several different electric utilities and
-              telecom companies.</p>
+              <h3 class="mb-0">Robotic Musicianship Lab</h3>
+              <div class="subheading mb-3">Georgia Tech</div>
+              <p><a href="https://gtcmt.gatech.edu/robotic-musicianship" target="_blank">Website</a><br />
+              I'm working with the Skywalker project at the Robotic Musicianship Lab, which focuses on using support
+              vector machines with ultrasound imagery to give amputee musicians the opportunity to play instruments again
+              using a robotic hand. So far, the bulk of my work has been gathering data for training our classifier,
+              automating the training and testing process, and modeling how overfitting changes our results when using
+              hand motions to model playing a piano.
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">Summer 2017</span>
+              <span class="text-primary">January 2019 - Present</span>
             </div>
           </div>
 
@@ -158,6 +199,46 @@
         </div>
       </section>
 
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+        <div class="my-auto">
+          <h2 class="mb-5">Projects</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Rock Paper Scissors SVM</h3>
+              <p>As part of my junior design course in the Robotic Musicianship Lab, another student and I were tasked 
+                with building a system that can use supervised learning to watch a game of rock paper scissors via
+                ultrasound imagery and determine the winner. To do this, we attached ultrasound probes to our forearms
+                and trained two copies of a supervised learning model using Max MSP and SKLearn's support vector
+                classifier. We then counted down a timer that sent between two Windows machines using UDP, and we played
+                rock paper scissors, where a live image would send from both probes to separate systems, which then
+                predicted whether a hand was holding rock, paper, or scissors, then both systems would share their result
+                to determine a winner.  
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">April 2019</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Microwaves at Tech</h3>
+              <p><a href="https://tsuwoto.github.io/" target="_blank">https://tsuwoto.github.io/</a><br />
+              <p>My first experience with programming, Microwaves at Tech is a web app made with PHP and Google Maps API
+                to track available microwave machines on Georgia Tech campus. I made Microwaves at Tech with four other
+                students at a Georgia Tech hackathon my senior year of high school, which helped me realize I wanted to
+                major in computer science. 
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">January 2017</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
         <div class="my-auto">
           <h2 class="mb-5">Skills</h2>
@@ -171,13 +252,22 @@
               <i class="devicons devicons-python"></i>
             </li>
             <li class="list-inline-item">
+              <i class="devicons devicons-c"></i>
+            </li>
+            <li class="list-inline-item">
               <i class="devicons devicons-javascript"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-react"></i>
             </li>
             <li class="list-inline-item">
               <i class="devicons devicons-html5"></i>
             </li>
             <li class="list-inline-item">
               <i class="devicons devicons-mysql"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-docker"></i>
             </li>
             <li class="list-inline-item">
               <i class="devicons devicons-android"></i>
@@ -192,7 +282,13 @@
               <i class="devicons devicons-intellij"></i>
             </li>
             <li class="list-inline-item">
+              <i class="devicons devicons-slack"></i>
+            </li>
+            <li class="list-inline-item">
               <i class="devicons devicons-vim"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-bitbucket"></i>
             </li>
             <li class="list-inline-item">
               <i class="devicons devicons-trello"></i>
