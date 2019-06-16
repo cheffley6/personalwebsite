@@ -69,6 +69,11 @@ body {
   background-color: #fff;
 }
 
+canvas {
+  position: relative;
+  z-index: -3 !important;
+}
+
 [tabindex="-1"]:focus {
   outline: 0 !important;
 }

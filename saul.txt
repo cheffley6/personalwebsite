@@ -1,0 +1,25 @@
+The Statistical Likelihood of Jimmy McGill pulling 6 B's in a row
+
+picked - 20, 29, 32, 39, 42, 51, 57, 61, 64, 68, 73
+
+11 gone - 64 remaining
+
+then:
+B2 (15/64 chance) 
+B4 (14/63)
+B12 (13/62)
+B7 ("oh, what are the odds? Four B's in a row.") (12/61)
+B5 (rant about) (11/60)
+another B (it's another freaking B - chicago sunroof rant) (10/59)
+total -- cumulative product is 0.00006675614
+or a 0.0066% chance
+
+The Odds of Jimmy McGill Pulling 6 B's in a Row
+
+*SPOILERS for Season One of Better Call Saul*
+
+I'm on another rewatch of AMC's Better Call Saul, and this time, I noticed something that looked pretty unlikely in season one's finale, Marco. About ten minutes into the episode, we see our protagonist, Jimmy McGill, calling a game of bingo in an effort to promote his reputation with his client base, the elder population of Albuquerque, New Mexico. Just before this, Jimmy went through a pretty ugly scene with his brother Chuck, who, after over a year of Jimmy's financial support, admitted he didn't believe Jimmy could ever revert from his petty crime habits.
+
+jimmy pulls 6 b's in a row, a reminder of brother
+rant
+what were the odds of this? -> calculations 

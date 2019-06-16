@@ -9,7 +9,8 @@
     <meta name="author" content="">
 
     <title>Cy Heffley</title>
-
+    <script src="js/p5.js"></script>
+    
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -21,13 +22,13 @@
     <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/resume.min.css" rel="stylesheet">
-    <base href="cheffley6.github.io/">
+    <link href="css/resume.min.css" rel="stylesheet">   
+    <!-- <base href="cheffley6.github.io/"> this line may be important -->
   </head>
 
   <body id="page-top">
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
         <span class="d-block d-lg-none">Cy Heffley</span>
       </a>
@@ -46,6 +47,9 @@
             <a class="nav-link js-scroll-trigger" href="#education">Education</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
@@ -53,7 +57,7 @@
           </li>
         </ul>
       </div>
-    </nav>
+  </nav>
 
     <div class="container-fluid p-0">
 
@@ -62,13 +66,14 @@
           <h1 class="mb-0">Cy
             <span class="text-primary">Heffley</span>
           </h1>
+          <script src="js/sketch.js"></script>
           <div class="subheading mb-5">Atlanta, GA · cyheffley (at) gatech (dot) edu
           </div>
-          <p class="mb-5">I'm a second-year Computer Science undergrad at
-            Georgia Tech interested in embedded systems, media, and web
-            development. I'm currently looking for a software engineering
-            internship for summer 2019. <br /> <br /><b>To check out my resume in pdf
-            form, click <a href="https://drive.google.com/file/d/1mpSQmcwAR4eJFzOv3kvYLZbl8VREFvYW/view">here.</a></b></map></p>
+          <p class="mb-5">Hi! Welcome to my webpage. I'm a second-year Computer Science undergrad at
+            Georgia Tech. My interests include embedded systems, web development, and designing interactive media.
+            I'm currently looking for a software engineering internship for summer 2019. 
+            <br /> <br /><b><a href="https://drive.google.com/file/d/1d_aTQ9WbmzpDNk9IpP2oceDevWiBvQEb/view">To check
+            out a pdf of my resume, click here.</a></b></map></p>
           <ul class="list-inline list-social-icons mb-0">
             <li class="list-inline-item">
               <a href="https://www.linkedin.com/in/cy-heffley/">
@@ -96,16 +101,13 @@
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Research Assistant</h3>
-              <div class="subheading mb-3">Expressive Machinery Lab, Georgia Tech</div>
+              <div class="subheading mb-3">Georgia Tech - Expressive Machinery Lab</div>
               <p><a href="https://adamlab.gatech.edu/">Website</a><br />
-              I'm currently working on creating a web port of Groove Machine, 
-              a multimedia project designed to teach coding concepts
-              and musical composition to children ages 10-14.<br />
-              This summer I learned how to use the tools that build Groove Machine,
-              especially Arduino microcontrollers. This was my first experience
-              learning how to design within the limitations of an embedded system as
-              well as designing digital circuits.
-              </p>
+              I'm currently in a team creating a web port of Groove Machine, a multimedia project designed to teach
+              coding concepts and music composition to children ages 10-14. We're currently developing a drag-and-drop implementation of the original machine using Pixi.js.<br />
+              This summer I learned how to use the tools that build Groove Machine, specifically Arduino
+              microcontrollers. This was my first experience with embedded systems and digital circuit design, and it
+              taught me a lot about developing within the limitations of microcontrollers.</p>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">June 2018 - Present</span>
@@ -115,15 +117,15 @@
 
         <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Technical Documentation Intern</h3>
+              <h3 class="mb-0">Software Intern</h3>
               <div class="subheading mb-3">Clearion Software, LLC</div>
               <p><a href="https://clearion.com/">Website</a><br />
-              Clearion is a leading team in geospatial work management
-              software. At Clearion, I was responsible for updating software 
-              documentation and testing new features and builds.</p>
+              Clearion is a leading team in geospatial work management software. At Clearion, I drafted software
+              documentation for nine separate electric utilities, vegetation management service providers, and telecom
+              groups. I also validated raster imagery data in a consulting project with AT&T.</p>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">Summer 2017</span>
+              <span class="text-primary">May 2017 - August 2017</span>
             </div>
           </div>
 
@@ -138,7 +140,7 @@
               <h3 class="mb-0">Georgia Institute of Technology</h3>
               <div class="subheading mb-3">Bachelor of Science in Computer Science</div>
               <div>Relevant Coursework: Data Structures and Algorithms, Objects and Design,
-                Applied Combinatorics, Design and Analysis of Algorithms
+                Applied Combinatorics, Design and Analysis of Algorithms<br />GPA: 3.90/4.00
               </div>
             </div>
             <div class="resume-date text-md-right">
@@ -150,6 +152,7 @@
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Brookwood High School</h3>
               <div class="subheading mb-3">Honor Graduate</div>
+              <div>GPA: 3.96/4.00</div>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">August 2013 - May 2017</span>
@@ -158,54 +161,121 @@
 
         </div>
       </section>
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
+        <div class="my-auto">
+          <h2 class="mb-5">Projects</h2>
 
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Interactive Chiptune Player</h3>
+              <p>Using an Arduino Uno and a breadboard, I made a square-wave music player with synchronized LED lights,
+              a button for playing/pausing music, and a potentiometer for altering the tempo of the music.</p>  
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">June 2018</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Find My Microwave</h3>
+              <p><a href="https://tsuwoto.github.io">https://tsuwoto.github.io</a></p>
+              <p>Find My Microwave is a resource for Georgia Tech students to find the nearest available microwave.
+                Using Google's Maps API, we documented as many public microwaves as we could find, and added
+                functionality for users to submit other locations for on-campus microwaves or report inaccuracies in our
+                map.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">January 2017</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
         <div class="my-auto">
           <h2 class="mb-5">Skills</h2>
 
           <div class="subheading mb-3">Programming Languages &amp; Tools</div>
           <ul class="list-inline list-icons">
-            <li class="list-inline-item">
-              <i class="devicons devicons-java"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-python"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-git"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-android"></i>
-            </li>
+              <li class="list-inline-item">
+                  <i class="devicons devicons-java"></i>
+                </li>
+                <li class="list-inline-item">
+                  <i class="devicons devicons-python"></i>
+                </li>
+                <li class="list-inline-item">
+                    <i class="devicons devicons-javascript"></i>
+                  </li>
+                <li class="list-inline-item">
+                    <i class="devicons devicons-html5"></i>
+                  </li>
+                <li class="list-inline-item">
+                  <i class="devicons devicons-git"></i>
+                </li>
+                <li class="list-inline-item">
+                  <i class="devicons devicons-android"></i>
+                </li>
+                <li class="list-inline-item">
+                    <i class="devicons devicons-intellij"></i>
+                </li>
+                <li class="list-inline-item">
+                    <i class="devicons devicons-ubuntu"></i>
+                </li>
+                <li class="list-inline-item">
+                    <i class="devicons devicons-vim"></i>
+                </li>
+
           </ul>
         </div>
       </section>
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="activities">
-        <div class="my-auto">
-          <h2 class="mb-5">Activities</h2>
-          <p>Outside of the classroom, I'm in Georgia Tech's Student
-          Government Association as a member of the IT Board.<br /> I'm also a
-          cymbal player in the Yellow Jacket Marching Band.</p>
-          <p class="mb-0">In my free time, I like to run, bike, and fish. When
-          I'm stuck indoors, if I'm not wasting hours gaming or watching <br />
-          television, I read sci-fi/fantasy. One series I'm currently on is
-          Patrick Rothfuss's <b>The Kingkiller Chronicles.</b></p>
-        </div>
-      </section>
+          <div class="my-auto">
+            <h2 class="mb-5">Activities</h2>
+            <div class="resume-item d-flex flex-column flex-md-row mb-5">
+              <div class="resume-content mr-auto">
+                <h3 class="mb-0">Yellow Jacket Marching Band</h3>
+                <div class="resume-date text-md-right">
+                    <span class="text-primary">August 2017 - May 2019</span>
+                </div>
+                <p>I currently play field cymbals in the Georgia Tech marching band
+                  in the fall and drumset for Georgia Tech's pep band in the winter
+                  and spring.
+                </p>
+                
+              </div>
+            </div>
+            <div class="resume-item d-flex flex-column flex-md-row mb-5">
+              <div class="resume-content mr-auto">
+                <h3 class="mb-0">Georgia Tech Student Government Association</h3>
+                <p>As a project lead in Georgia Tech's IT Board, I'm currently overseeing
+                  a revamp of Course Critique (<a href="critique.gatech.edu">critique.gatech.edu</a>),
+                  Georgia Tech's most popular student resource for grade distribution data. We're
+                  currently rebuilding the website using Python Flask and MySQL, and
+                  are planning to add features for data visualization using d3js. 
+                </p>
+              </div>
+            </div>
+            <p class="mb-0">In my free time, I like to run, bike, and fish. When
+            I'm stuck indoors, if I'm not wasting hours gaming or watching <br />
+            television, I read sci-fi/fantasy. One series I'm currently on is
+            Patrick Rothfuss's <b>The Kingkiller Chronicles.</b></p>
+          </div>
+        </section>
 
     </div>
 
-    <!-- Bootstrap core JavaScript -->
+    <!-- Bootstrap core JavaScript 
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
+    
+     Plugin JavaScript
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-    <!-- Custom scripts for this template -->
+     Custom scripts for this template
     <script src="js/resume.min.js"></script>
-
+    -->
   </body>
 
 </html>
