@@ -2,19 +2,22 @@
 
 var drops = [];
 function setup() {
-canvas = createCanvas(.8 * window.innerWidth, window.innerHeight);
-for (var i = 0; i < 100; i++) {
-    drops[i] = new Drop();
-}
-img = loadImage("https://i.redd.it/ts1ffujfwd921.jpg");
-img.resize(canvas.width, canvas.height);
+    canvas = createCanvas(.81 * window.innerWidth, 1 * window.innerHeight);
+    for (var i = 0; i < 100; i++) {
+        drops[i] = new Drop();
+    }
+    img = loadImage("possiibleBackground.png");
+    img.resize(canvas.width, canvas.height);
 }
 j = 1;
+let defaultColor = [random(0, 255), random(0, 255), random(0, 255)];
+//let techGold = [179, 163, 105];
 function draw() {
     background(img);
     for (var i = 0; i < drops.length; i++) {
         drops[i].fall();
         drops[i].show();
+
     }
 }
 
@@ -24,6 +27,7 @@ function Drop() {
     this.z = random(0, 20);
     this.len = map(this.z, 0, 20, 14, 20);
     this.yspeed = map(this.z, 0, 20, 10, 20);
+    this.colorScheme = [random(0, 255), random(0, 255), random(0, 255)];
 
     this.fall = function() {
         this.y = this.y + this.yspeed;
@@ -40,19 +44,22 @@ function Drop() {
     this.show = function() {
         var thick = map(this.z, 0, 20, 1, 3);
         strokeWeight(thick);
-        stroke(255, 255, 255);
+        stroke(random(0, 255), random(0, 255), random(0, 255));
         line(this.x, this.y, this.x, this.y + this.len);
     }
             
 }
-function mousePressed() {
-    for (let i = 0; i < drops.length; i++) {
-        if (Math.abs(mouseX - drops[i].x) < 10) {
-            if (Math.abs(mouseY - drops[i].y) < 10) {
-                alert("got one");
-                drop = drops[i];
-                break;
-            }
-        }
-    }
-}
+// function mousePressed() {
+//     for (let i = 0; i < drops.length; i++) {
+//         if (Math.abs(mouseX - drops[i].x) < 10) {
+//             if (Math.abs(mouseY - drops[i].y) < 100) {
+//                 alert("got one");
+//                 drops[i].defaultColor = false;
+//                 drops[i].show(tec);
+//                 drops[i].fall();
+//                 drop = drops[i];
+//                 break;
+//             }
+//         }
+//     }
+// }
