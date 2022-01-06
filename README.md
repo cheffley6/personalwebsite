@@ -9,3 +9,6 @@ Adding changes:
 
 If running into a 404 on cyheffley.com:
 - verify that the CNAME file exists in the `prod` branch (and that its contents are just cyheffley.com)
+
+To-Do:
+- get favicon into `prod` branch
