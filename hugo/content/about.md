@@ -19,4 +19,4 @@ For a copy of my resume, please email me at cyheffley (at) gmail (dot) com.
 
 ## Experience
 
-My background so far has been in software engineering with some amount of data science, machine learning, and security applied across HCM, marketing, healthcare, education, and audio. To check out some of my work, head over to the [projects]("https://cyheffley.com/projects") section.
+My professional background so far has been in full-stack software engineering, data science, machine learning, and cybersecurity applied across HCM, marketing, healthcare, education, and audio. To check out some of my work, head over to the [projects]("https://cyheffley.com/projects") section.
