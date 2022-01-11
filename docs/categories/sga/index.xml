@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SGA on Cy Heffley</title>
+    <link>https://cyheffley.com/categories/sga/</link>
+    <description>Recent content in SGA on Cy Heffley</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 22 Jun 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://cyheffley.com/categories/sga/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Course Critique</title>
+      <link>https://cyheffley.com/projects/critique/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://cyheffley.com/projects/critique/</guid>
+      <description>About Originally an annually-published book that dates back to at least the 1970&amp;rsquo;s, Course Critique is a static web application owned by Georgia Tech&amp;rsquo;s Student Government Association. Critique allows users to view historical course grade distributions across all instructors and courses offered at Georgia Tech.
+I served in Georgia Tech&amp;rsquo;s SGA as team owner for Critique&amp;rsquo;s development team from 2018 until 2020, where I spent a year as SGA&amp;rsquo;s Vice President of IT, a role that involved a few policy-driven responsibilities in addition to overseeing maintenance and development for projects such as Critique.</description>
+    </item>
+    
+  </channel>
+</rss>
