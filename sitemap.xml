@@ -18,16 +18,6 @@
   </url>
   
   <url>
-    <loc>https://cyheffley.com/blog/</loc>
-    <lastmod>2021-12-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cyheffley.com/blog/first_post/</loc>
-    <lastmod>2021-12-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://cyheffley.com/about/</loc>
     <lastmod>2021-12-17T00:00:00+00:00</lastmod>
   </url>
@@ -72,7 +62,15 @@
   </url>
   
   <url>
+    <loc>https://cyheffley.com/blog/</loc>
+  </url>
+  
+  <url>
     <loc>https://cyheffley.com/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://cyheffley.com/blog/seattle_january_2022/</loc>
   </url>
   
 </urlset>

@@ -19,15 +19,6 @@ As a machine learning engineering intern at SpareMin, I developed and prototyped
     </item>
     
     <item>
-      <title>Hello, world</title>
-      <link>https://cyheffley.com/blog/first_post/</link>
-      <pubDate>Sat, 25 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://cyheffley.com/blog/first_post/</guid>
-      <description>This is just a sample post for setting up my personal website.</description>
-    </item>
-    
-    <item>
       <title>About Me</title>
       <link>https://cyheffley.com/about/</link>
       <pubDate>Fri, 17 Dec 2021 00:00:00 +0000</pubDate>
@@ -100,6 +91,16 @@ We additionally included a data integrity measure: every 10 minutes, all origina
       
       <guid>https://cyheffley.com/projects/ethics/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Trip to Seattle</title>
+      <link>https://cyheffley.com/blog/seattle_january_2022/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cyheffley.com/blog/seattle_january_2022/</guid>
+      <description>Just wrapped up visiting a few friends and checking out the city of Seattle for the first time. Here are some photos I took from across the city this weekend.
+Scenery         View of Seattle from Kerry Park.            The same view of Seattle from Kerry Park, taken at night.            The Olympic Mountains as seen from Queen Anne.</description>
     </item>
     
   </channel>
