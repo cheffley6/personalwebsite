@@ -2,7 +2,7 @@
 author = "Cy Heffley"
 categories = []
 tags = []
-date = "2021-1-10"
+date = "2022-01-10"
 description = ""
 linktitle = ""
 title = "Trip to Seattle"

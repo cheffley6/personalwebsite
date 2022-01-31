@@ -43,8 +43,14 @@ theme = "hugo-imperfect"
   weight = 4
 
 [[menu.main]]
+  name = "Papers"
+  url = "/papers/"
+  identifier = "fa fa-envelope-o"
+  weight = 7
+
+[[menu.main]]
   name = "Contact"
   url = "/contact/"
   identifier = "fa fa-envelope-o"
-  weight = 5
+  weight = 6
 
