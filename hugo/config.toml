@@ -6,7 +6,7 @@ theme = "hugo-imperfect"
 [params.intro]
   header    = "Cy Heffley"
 
-  paragraph = "Ramblings of a computer science student and musician"
+  paragraph = "Ramblings of a programmer and musician"
 
   about     = "Thanks for checking out my page! This is primarily intended as a personal blog. For anyone interested in contacting me about jobs, please see my <a href = \"/about\">About section.</a>"
 
