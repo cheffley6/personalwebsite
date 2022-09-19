@@ -11,7 +11,7 @@ type = "post"
 +++
 Every once in a while, someone writes something that punches me square in the chin and forces me to re-evaluate a critical part of how I see myself. The latest person to do that is Kate Murphy.
 
-At the recommendation of a friend, I read her 2019 book “You’re Not Listening: What You’re Missing and Why It Matters” over the past week. Murphy’s pinpointed exactly what has felt wrong in most of my daily interactions for years: the prevalence of terrible listening patterns across many communities in the US.
+At the recommendation of a friend, I read her 2019 book [“You’re Not Listening: What You’re Missing and Why It Matters”](https://www.goodreads.com/book/show/45892276-you-re-not-listening) over the past week. Murphy’s pinpointed exactly what has felt wrong in most of my daily interactions for years: the prevalence of terrible listening patterns across many communities in the US.
 
 This book first caught my attention only a few pages in, when Murphy highlights a number of bad listening habits that I realized describe me perfectly:
 
