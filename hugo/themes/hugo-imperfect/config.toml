@@ -6,9 +6,9 @@ theme = "hugo-imperfect"
 [params.intro]
   header    = "Cy Heffley"
 
-  paragraph = "Ramblings of a computer science student and musician"
+  paragraph = "Ramblings of a programmer and musician"
 
-  about     = "Thanks for checking out my page! This is primarily intended as a personal blog, but I keep a copy of my resume in my <a href = \"/about\">About section.</a>"
+  about     = "Thanks for checking out my page! This is primarily intended as a personal blog. For anyone interested in contacting me about jobs, please see my <a href = \"/about\">About section.</a>"
 
   # This appears at the top of the sidebar above params.intro.header.
   # A width of less than 100px is recommended from a design perspective.
@@ -45,12 +45,18 @@ theme = "hugo-imperfect"
 [[menu.main]]
   name = "Papers"
   url = "/papers/"
-  identifier = "fa fa-envelope-o"
-  weight = 7
+  identifier = "fa fa-paper-plane-o"
+  weight = 5
+
+[[menu.main]]
+  name = "Art"
+  url = "/art/"
+  identifier = "fa fa-paint-brush"
+  weight = 6
 
 [[menu.main]]
   name = "Contact"
   url = "/contact/"
   identifier = "fa fa-envelope-o"
-  weight = 6
+  weight = 7
 

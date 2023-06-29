@@ -49,8 +49,14 @@ theme = "hugo-imperfect"
   weight = 5
 
 [[menu.main]]
+  name = "Art"
+  url = "/art/"
+  identifier = "fa fa-paint-brush"
+  weight = 6
+
+[[menu.main]]
   name = "Contact"
   url = "/contact/"
   identifier = "fa fa-envelope-o"
-  weight = 6
+  weight = 7
 
