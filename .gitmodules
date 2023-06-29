@@ -1,3 +1,6 @@
 [submodule "hugo-imperfect"]
 	path = hugo-imperfect
 	url = https://github.com/jpescador/hugo-future-imperfect.git
+[submodule "hugo/themes/hugo-future-imperfect-slim"]
+	path = hugo/themes/hugo-future-imperfect-slim
+	url = https://github.com/pacollins/hugo-future-imperfect-slim.git
